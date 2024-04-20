@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-ignore
 import styles from './Keyboard.module.css'
 
 const KEYS = [
