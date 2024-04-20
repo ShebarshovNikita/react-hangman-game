@@ -71,7 +71,11 @@ function App() {
         }}>
             <div style={{
                 fontSize: '2rem',
-                textAlign: 'center'
+                textAlign: 'center',
+                border: '3px solid black',
+                padding: '5px',
+                borderRadius: '20px',
+                backgroundColor: isWinner ? "#00FF37" : ''
             }}>
                 {isWinner && "Winner! - Refresh to try again!"}
                 {isLoser && "Loser - Refresh to try again!"}
